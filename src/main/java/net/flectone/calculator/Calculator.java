@@ -16,7 +16,7 @@ public class Calculator {
 
     public double divide(int a, int b) {
         if (b == 0) {
-            throw new ArithmeticException("Division by zero is not allowed");
+            throw new ArithmeticException("123");
         }
 
         return (double) a / b;
